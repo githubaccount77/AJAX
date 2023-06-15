@@ -1,3 +1,30 @@
+This code was ran with XAMMP server. (Put inside C://XAMMP/htdocs)
+
 Video
 
 https://www.youtube.com/watch?v=82hnvUYY6QA&ab_channel=TraversyMedia
+
+Vanilla JavaScript Playlist
+
+https://youtube.com/playlist?list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX
+
+Every browser uses XHR Object which is an XmlHttpRequest it's API in the form of an object.
+
+Provided by the browser's JS environment.
+
+Transfers data between client/server.
+
+Can be used with other protocols than HTTP.
+
+Can with with other data which today can be XML but has grown into JSON files as more common method...
+
+Libraries and methods -
+
+JQuery
+Axios
+Superagent
+Fetch API
+Prototype
+Node HTTP
+
+
