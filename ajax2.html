@@ -52,16 +52,17 @@
 
       xhr.onload = function(){
         if(this.status == 200){
-          var user = JSON.parse(this.responseText);
+          var users = JSON.parse(this.responseText);
           //JSON Parse displaying on console.
           // console.log(user.name);
           var output = '';
           
 
           for(var i in users){
-            '<li>ID: '+users[i].id+'</li>'+
-            '<li>Name: '+users[i].name+'</li>'+
-            '<li>Email: '+users[i].email+'</li>'+
+            output += '<ul>' +
+            '<li>ID: '+users[i].id+'</li>' +
+            '<li>Name: '+users[i].name+'</li>' +
+            '<li>Email: '+users[i].email+'</li>' +
             '</ul>';
           }
             document.getElementById('users').innerHTML = output;
